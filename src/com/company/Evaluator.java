@@ -96,7 +96,7 @@ public class Evaluator {
   }
 
   private static boolean evaluateNumFelonies(Application app) {
-    return !app.isHasFelonies();
+    return !app.isHasFeloniesWithin5Years();
   }
 
   private static double evaluateGPA(Application app) {
